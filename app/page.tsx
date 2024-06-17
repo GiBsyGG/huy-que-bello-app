@@ -1,7 +1,7 @@
-import { Header } from "./components";
+import { Header } from "@/app/components";
 import styles from "./page.module.css";
-import { Contact } from "./components";
-import { Footer } from "./components";
+import { Contact } from "@/app/components";
+import { Footer } from "@/app/components";
 
 export default function Home() {
   return (
