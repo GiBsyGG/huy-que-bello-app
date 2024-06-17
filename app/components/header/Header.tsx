@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
-import { SearchBar } from '../search_bar/SearchBar';
+import { SearchBar } from '@/app/components';
+import { SocialMediaBar } from '@/app/components';
 
 export function Header() {
   return (
@@ -11,9 +12,7 @@ export function Header() {
         <SearchBar />
       </div>
 
-      <div>
-        
-      </div>
+      <SocialMediaBar />
     </div>
   )
 }
